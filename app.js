@@ -29,7 +29,7 @@ app.post("/deleteNote", async (req, res) => {
 
 const port = process.env.PORT || 8080;
 
-app.listen(`0.0.0.0:${port}`, () => {
+app.listen(port, () => {
     console.log("Server is running on port", port);
 });
 
